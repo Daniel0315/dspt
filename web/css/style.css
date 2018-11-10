@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url("../images/noise.png"),url("../images/background1.jpg");
+    background-repeat: repeat, repeat;
+    background-position: left top;
+    background-size: auto, cover;
+}
+.yvkeji{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url("../images/noise.png"),url("../images/background1.jpg");
+    background-repeat: repeat, repeat;
+    background-position: left top;
+    background-size: auto, cover;
+}
+.null{
+    width: 100%;
+    height: 30px;
+}
+.nav{
+    width: 20%;
+    height: 650px;
+}
+.content{
+    width: 80%;
+    height: 1000px;
+    margin: 0px auto;
+}
+ .nav .h3{
+    color: #a6e1ec;
+}
+
+.nav .navcontent{
+    width: 100%;
+    height: 400px;
+}
+ .nav .navcontent .drop{
+    margin: 0px auto;
+}
+ .nav .navcontent .drop .button{
+    width: 100%;
+    height: 70px;
+    border-radius: 8px;
+    margin: 0px auto;
+    padding: 15px;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.9);
+}
+ .nav .navcontent .drop .button a{
+color: rgba(255, 255, 255, 0.9);
+}
+
+.head{
+    width: 100%;
+    height: 80px;
+    opacity: 0.8;
+
+}
+.head h2{
+    color: #a6e1ec;
+}
+.head h3{
+    color: #000000;
+}
+
+ .hbody{
+    width: 100%;
+}
+
+.pos{
+    position: absolute;
+    top: 0px;
+    width: 200px;
+}
+.background{
+    background: url("../images/big.jpg");
+    width: 572px;
+    height: 412px;
+    position: fixed;
+    left: 750px;
+    top: 100px;
+}
+.back{
+    background: url("../images/logo2.jpg");
+    width: 572px;
+    height: 412px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 850px;
+    top: 125px;
+}
+.over{
+    width: 180px;
+    overflow:hidden;
+}
+.gstandard{
+    width: 200px;
+    height: 100px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+.gimg{
+    width: 100px;
+    height: 100px;
+}
+.body .foot{
+    width: 100%;
+    height: 60px;
+}
+.foot p{
+    color: #999999;
+   font-weight: inherit;
+    font-size: 15px;
+    padding: 20px;
+}
+
+/**
+设置manager页面的主页
+ */
+.img{
+    width: 843px;
+    height: 354px;
+    background-image: url("../images/ad1.jpg");
+    background-size: 100%;
+    margin: 0px auto;
+}
+ .leftbutton{
+    position: relative;
+    top: 150px;
+    width: 100px;
+    height: 50px;
+    background: blueviolet;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.rightbutton{
+    position: relative;
+    left: 743px;
+    top: 100px;
+    width: 100px;
+    height: 50px;
+    background: blueviolet;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
